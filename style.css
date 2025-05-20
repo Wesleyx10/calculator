@@ -29,12 +29,14 @@ body {
   gap: 10px;
 }
 .calculator .buttons button {
+  all: unset;
   padding: 20px;
   font-size: 1.2rem;
   border: none;
   border-radius: 5px;
   background: #e5e7eb;
   cursor: pointer;
+  color: black;
 }
 .calculator .buttons button:hover {
   background: #d1d5db;

@@ -27,12 +27,14 @@ body {
     grid-template-columns: repeat(4, 60px);
     gap: 10px;
     button {
+      all: unset;
       padding: 20px;
       font-size: 1.2rem;
       border: none;
       border-radius: 5px;
       background: #e5e7eb;
       cursor: pointer;
+      color: black;
     }
     button:hover {
       background: #d1d5db;
